@@ -11,7 +11,37 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{CE959DF9-7864-47AC-8C4D-D40C41921AE3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BistroWOnionArch.Core.Domain", "src\Core\BistroWOnionArch.Core.Domain\BistroWOnionArch.Core.Domain.csproj", "{2C82769C-2A5D-4939-8455-42D263B01B43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BistroWOnionArch.Core.Application", "src\Core\BistroWOnionArch.Core.Application\BistroWOnionArch.Core.Application.csproj", "{0109DAB7-9388-4B26-9567-527BFC75DB67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BistroWOnionArch.Infrastructure.Persistence", "src\Infrastructure\BistroWOnionArch.Infrastructure.Persistence\BistroWOnionArch.Infrastructure.Persistence.csproj", "{B3E3BB8E-707B-4348-AD88-0EDC2D78666B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BistroWOnionArch.Presentation.WebUI", "src\Presentation\BistroWOnionArch.Presentation.WebUI\BistroWOnionArch.Presentation.WebUI.csproj", "{584D9729-F503-463F-BC15-559E894ABD57}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C82769C-2A5D-4939-8455-42D263B01B43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C82769C-2A5D-4939-8455-42D263B01B43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C82769C-2A5D-4939-8455-42D263B01B43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C82769C-2A5D-4939-8455-42D263B01B43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0109DAB7-9388-4B26-9567-527BFC75DB67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0109DAB7-9388-4B26-9567-527BFC75DB67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0109DAB7-9388-4B26-9567-527BFC75DB67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0109DAB7-9388-4B26-9567-527BFC75DB67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3E3BB8E-707B-4348-AD88-0EDC2D78666B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3E3BB8E-707B-4348-AD88-0EDC2D78666B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3E3BB8E-707B-4348-AD88-0EDC2D78666B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3E3BB8E-707B-4348-AD88-0EDC2D78666B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{584D9729-F503-463F-BC15-559E894ABD57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{584D9729-F503-463F-BC15-559E894ABD57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{584D9729-F503-463F-BC15-559E894ABD57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{584D9729-F503-463F-BC15-559E894ABD57}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
@@ -19,6 +49,10 @@ Global
 		{48D107E8-3CE6-4D1A-953D-6DC83D63903E} = {C46E6BB8-2008-4782-9E6E-BDD836AC07AB}
 		{14CE6BEC-A687-4067-953F-039644AD6F04} = {C46E6BB8-2008-4782-9E6E-BDD836AC07AB}
 		{CE959DF9-7864-47AC-8C4D-D40C41921AE3} = {C46E6BB8-2008-4782-9E6E-BDD836AC07AB}
+		{2C82769C-2A5D-4939-8455-42D263B01B43} = {48D107E8-3CE6-4D1A-953D-6DC83D63903E}
+		{0109DAB7-9388-4B26-9567-527BFC75DB67} = {48D107E8-3CE6-4D1A-953D-6DC83D63903E}
+		{B3E3BB8E-707B-4348-AD88-0EDC2D78666B} = {14CE6BEC-A687-4067-953F-039644AD6F04}
+		{584D9729-F503-463F-BC15-559E894ABD57} = {CE959DF9-7864-47AC-8C4D-D40C41921AE3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {456ACDFC-E83E-453C-A0A0-3DE08DD6BAB5}

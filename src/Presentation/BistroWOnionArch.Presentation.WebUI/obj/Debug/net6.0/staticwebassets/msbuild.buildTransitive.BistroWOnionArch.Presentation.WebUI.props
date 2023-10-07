@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\BistroWOnionArch.Presentation.WebUI.props" />
+</Project>

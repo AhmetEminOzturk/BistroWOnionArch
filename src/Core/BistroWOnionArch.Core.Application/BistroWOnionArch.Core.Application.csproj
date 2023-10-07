@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BistroWOnionArch.Core.Domain\BistroWOnionArch.Core.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Dtos\About\Requests\" />
+    <Folder Include="Dtos\Category\Requests\" />
+    <Folder Include="Dtos\Dish\Requests\" />
+    <Folder Include="Dtos\OurDish\Requests\" />
+    <Folder Include="Dtos\OurService\Requests\" />
+    <Folder Include="Dtos\OurSpecial\Requests\" />
+    <Folder Include="Dtos\Statistic\Requests\" />
+    <Folder Include="Dtos\WelcomeBanner\Requests\" />
+    <Folder Include="Services\AboutServices\" />
+    <Folder Include="Services\CategoryServices\" />
+    <Folder Include="Services\DishServices\" />
+    <Folder Include="Services\WelcomeBannerServices\" />
+    <Folder Include="Services\StatisticServices\" />
+    <Folder Include="Services\OurSpecialServices\" />
+    <Folder Include="Services\OurServiceServices\" />
+    <Folder Include="Services\OurDishServices\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+  </ItemGroup>
+
+</Project>
