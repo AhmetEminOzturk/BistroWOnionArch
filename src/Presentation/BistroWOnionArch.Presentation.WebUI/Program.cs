@@ -1,7 +1,16 @@
+using BistroWOnionArch.Presentation.WebUI.Extensions;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
+
+var connectionString = builder.Configuration.GetConnectionString("db");
+
+builder.Services.AddInjections(connectionString);
 
 var app = builder.Build();
 

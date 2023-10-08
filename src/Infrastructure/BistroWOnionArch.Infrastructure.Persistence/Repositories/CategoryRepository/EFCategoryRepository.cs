@@ -1,4 +1,6 @@
 ﻿using BistroWOnionArch.Core.Domain.Entities;
+using BistroWOnionArch.Infrastructure.Persistence.Context;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,29 +11,40 @@ namespace BistroWOnionArch.Infrastructure.Persistence.Repositories.CategoryRepos
 {
     public class EFCategoryRepository : ICategoryRepository
     {
-        public Task CreateAsync(Category entity)
+        private readonly BistroWOnionArchDbContext _dbContext;
+
+        public EFCategoryRepository(BistroWOnionArchDbContext dbContext)
         {
-            throw new NotImplementedException();
+            _dbContext = dbContext;
         }
 
-        public Task DeleteAsync(int id)
+        public async Task CreateAsync(Category entity)
         {
-            throw new NotImplementedException();
+            await _dbContext.Categories.AddAsync(entity);
+            await _dbContext.SaveChangesAsync();
         }
 
-        public Task<IList<Category?>> GetAllAsync()
+        public async Task DeleteAsync(int id)
         {
-            throw new NotImplementedException();
+            var deleting = await _dbContext.Categories.FindAsync(id);
+            _dbContext.Categories.Remove(deleting);
+            await _dbContext.SaveChangesAsync();
         }
 
-        public Task<Category?> GetAsync(int id)
+        public async Task<List<Category?>> GetAllAsync()
         {
-            throw new NotImplementedException();
+            return await _dbContext.Categories.ToListAsync();
         }
 
-        public Task UpdateAsync(Category entity)
+        public async Task<Category?> GetAsync(int id)
         {
-            throw new NotImplementedException();
+            return await _dbContext.Categories.FirstAsync(p => p.CategoryId == id);
+        }
+
+        public async Task UpdateAsync(Category entity)
+        {
+            _dbContext.Categories.Update(entity);
+            _dbContext.SaveChangesAsync();
         }
     }
 }

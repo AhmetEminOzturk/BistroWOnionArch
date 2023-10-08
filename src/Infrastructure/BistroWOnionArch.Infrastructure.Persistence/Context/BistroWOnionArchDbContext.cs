@@ -1,4 +1,5 @@
-﻿using BistroWOnionArch.Core.Domain.Entities;
+﻿
+using BistroWOnionArch.Core.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -10,6 +11,8 @@ namespace BistroWOnionArch.Infrastructure.Persistence.Context
 {
     public class BistroWOnionArchDbContext :DbContext
     {
+        
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer("server=localhost,1433;database=BistroWOnionArchDb;user=sa;password=123456aA*;");
@@ -22,5 +25,6 @@ namespace BistroWOnionArch.Infrastructure.Persistence.Context
         public DbSet<OurSpecial> OurSpecials { get; set; }
         public DbSet<Statistic> Statistics { get; set; }
         public DbSet<WelcomeBanner> WelcomeBanners { get; set; }
+
     }
 }

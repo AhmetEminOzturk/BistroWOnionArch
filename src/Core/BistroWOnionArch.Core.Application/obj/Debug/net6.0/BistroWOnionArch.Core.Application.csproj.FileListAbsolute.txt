@@ -1,0 +1,17 @@
+C:\GitHub\BistroWOnionArch\src\Core\BistroWOnionArch.Core.Application\obj\Debug\net6.0\BistroWOnionArch.Core.Application.csproj.AssemblyReference.cache
+C:\GitHub\BistroWOnionArch\src\Core\BistroWOnionArch.Core.Application\obj\Debug\net6.0\BistroWOnionArch.Core.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\BistroWOnionArch\src\Core\BistroWOnionArch.Core.Application\obj\Debug\net6.0\BistroWOnionArch.Core.Application.AssemblyInfoInputs.cache
+C:\GitHub\BistroWOnionArch\src\Core\BistroWOnionArch.Core.Application\obj\Debug\net6.0\BistroWOnionArch.Core.Application.AssemblyInfo.cs
+C:\GitHub\BistroWOnionArch\src\Core\BistroWOnionArch.Core.Application\obj\Debug\net6.0\BistroWOnionArch.Core.Application.csproj.CoreCompileInputs.cache
+C:\GitHub\BistroWOnionArch\src\Core\BistroWOnionArch.Core.Application\bin\Debug\net6.0\BistroWOnionArch.Core.Application.deps.json
+C:\GitHub\BistroWOnionArch\src\Core\BistroWOnionArch.Core.Application\bin\Debug\net6.0\BistroWOnionArch.Core.Application.dll
+C:\GitHub\BistroWOnionArch\src\Core\BistroWOnionArch.Core.Application\bin\Debug\net6.0\BistroWOnionArch.Core.Application.pdb
+C:\GitHub\BistroWOnionArch\src\Core\BistroWOnionArch.Core.Application\bin\Debug\net6.0\BistroWOnionArch.Core.Domain.dll
+C:\GitHub\BistroWOnionArch\src\Core\BistroWOnionArch.Core.Application\bin\Debug\net6.0\BistroWOnionArch.Core.Domain.pdb
+C:\GitHub\BistroWOnionArch\src\Core\BistroWOnionArch.Core.Application\obj\Debug\net6.0\BistroWOnionArch.Core.Application.csproj.CopyComplete
+C:\GitHub\BistroWOnionArch\src\Core\BistroWOnionArch.Core.Application\obj\Debug\net6.0\BistroWOnionArch.Core.Application.dll
+C:\GitHub\BistroWOnionArch\src\Core\BistroWOnionArch.Core.Application\obj\Debug\net6.0\refint\BistroWOnionArch.Core.Application.dll
+C:\GitHub\BistroWOnionArch\src\Core\BistroWOnionArch.Core.Application\obj\Debug\net6.0\BistroWOnionArch.Core.Application.pdb
+C:\GitHub\BistroWOnionArch\src\Core\BistroWOnionArch.Core.Application\obj\Debug\net6.0\ref\BistroWOnionArch.Core.Application.dll
+C:\GitHub\BistroWOnionArch\src\Core\BistroWOnionArch.Core.Application\bin\Debug\net6.0\BistroWOnionArch.Infrastructure.Persistence.dll
+C:\GitHub\BistroWOnionArch\src\Core\BistroWOnionArch.Core.Application\bin\Debug\net6.0\BistroWOnionArch.Infrastructure.Persistence.pdb

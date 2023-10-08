@@ -1,0 +1,12 @@
+C:\GitHub\BistroWOnionArch\src\Core\BistroWOnionArch.Core.Domain\bin\Debug\net6.0\BistroWOnionArch.Core.Domain.deps.json
+C:\GitHub\BistroWOnionArch\src\Core\BistroWOnionArch.Core.Domain\bin\Debug\net6.0\BistroWOnionArch.Core.Domain.dll
+C:\GitHub\BistroWOnionArch\src\Core\BistroWOnionArch.Core.Domain\bin\Debug\net6.0\BistroWOnionArch.Core.Domain.pdb
+C:\GitHub\BistroWOnionArch\src\Core\BistroWOnionArch.Core.Domain\obj\Debug\net6.0\BistroWOnionArch.Core.Domain.csproj.AssemblyReference.cache
+C:\GitHub\BistroWOnionArch\src\Core\BistroWOnionArch.Core.Domain\obj\Debug\net6.0\BistroWOnionArch.Core.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\BistroWOnionArch\src\Core\BistroWOnionArch.Core.Domain\obj\Debug\net6.0\BistroWOnionArch.Core.Domain.AssemblyInfoInputs.cache
+C:\GitHub\BistroWOnionArch\src\Core\BistroWOnionArch.Core.Domain\obj\Debug\net6.0\BistroWOnionArch.Core.Domain.AssemblyInfo.cs
+C:\GitHub\BistroWOnionArch\src\Core\BistroWOnionArch.Core.Domain\obj\Debug\net6.0\BistroWOnionArch.Core.Domain.csproj.CoreCompileInputs.cache
+C:\GitHub\BistroWOnionArch\src\Core\BistroWOnionArch.Core.Domain\obj\Debug\net6.0\BistroWOnionArch.Core.Domain.dll
+C:\GitHub\BistroWOnionArch\src\Core\BistroWOnionArch.Core.Domain\obj\Debug\net6.0\refint\BistroWOnionArch.Core.Domain.dll
+C:\GitHub\BistroWOnionArch\src\Core\BistroWOnionArch.Core.Domain\obj\Debug\net6.0\BistroWOnionArch.Core.Domain.pdb
+C:\GitHub\BistroWOnionArch\src\Core\BistroWOnionArch.Core.Domain\obj\Debug\net6.0\ref\BistroWOnionArch.Core.Domain.dll

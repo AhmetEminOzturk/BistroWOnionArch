@@ -32,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\GitHub\\BistroWOnionArch\\src\\Core\\BistroWOnionArch.Core.Domain\\BistroWOnionArch.Core.Domain.csproj": {
-                "projectPath": "C:\\GitHub\\BistroWOnionArch\\src\\Core\\BistroWOnionArch.Core.Domain\\BistroWOnionArch.Core.Domain.csproj"
+              "C:\\GitHub\\BistroWOnionArch\\src\\Infrastructure\\BistroWOnionArch.Infrastructure.Persistence\\BistroWOnionArch.Infrastructure.Persistence.csproj": {
+                "projectPath": "C:\\GitHub\\BistroWOnionArch\\src\\Infrastructure\\BistroWOnionArch.Infrastructure.Persistence\\BistroWOnionArch.Infrastructure.Persistence.csproj"
               }
             }
           }
@@ -55,6 +55,10 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[12.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.22, )"
             }
           },
           "imports": [
@@ -164,8 +168,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\GitHub\\BistroWOnionArch\\src\\Core\\BistroWOnionArch.Core.Application\\BistroWOnionArch.Core.Application.csproj": {
-                "projectPath": "C:\\GitHub\\BistroWOnionArch\\src\\Core\\BistroWOnionArch.Core.Application\\BistroWOnionArch.Core.Application.csproj"
+              "C:\\GitHub\\BistroWOnionArch\\src\\Core\\BistroWOnionArch.Core.Domain\\BistroWOnionArch.Core.Domain.csproj": {
+                "projectPath": "C:\\GitHub\\BistroWOnionArch\\src\\Core\\BistroWOnionArch.Core.Domain\\BistroWOnionArch.Core.Domain.csproj"
               }
             }
           }
@@ -250,8 +254,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\GitHub\\BistroWOnionArch\\src\\Infrastructure\\BistroWOnionArch.Infrastructure.Persistence\\BistroWOnionArch.Infrastructure.Persistence.csproj": {
-                "projectPath": "C:\\GitHub\\BistroWOnionArch\\src\\Infrastructure\\BistroWOnionArch.Infrastructure.Persistence\\BistroWOnionArch.Infrastructure.Persistence.csproj"
+              "C:\\GitHub\\BistroWOnionArch\\src\\Core\\BistroWOnionArch.Core.Application\\BistroWOnionArch.Core.Application.csproj": {
+                "projectPath": "C:\\GitHub\\BistroWOnionArch\\src\\Core\\BistroWOnionArch.Core.Application\\BistroWOnionArch.Core.Application.csproj"
               }
             }
           }

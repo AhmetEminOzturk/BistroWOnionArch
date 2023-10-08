@@ -31,7 +31,7 @@ namespace BistroWOnionArch.Infrastructure.Persistence.Repositories.WelcomeBanner
             await _dbContext.SaveChangesAsync();
         }
 
-        public async Task<IList<WelcomeBanner?>> GetAllAsync()
+        public async Task<List<WelcomeBanner?>> GetAllAsync()
         {
             return await _dbContext.WelcomeBanners.ToListAsync();
         }

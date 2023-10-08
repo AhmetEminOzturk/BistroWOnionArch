@@ -9,7 +9,7 @@ namespace BistroWOnionArch.Infrastructure.Persistence.Repositories
     public interface IRepository <T> where T : class
     {      
         Task<T?> GetAsync(int id);     
-        Task<IList<T?>> GetAllAsync();      
+        Task<List<T?>> GetAllAsync();      
         Task CreateAsync(T entity);        
         Task DeleteAsync(int id);     
         Task UpdateAsync(T entity);

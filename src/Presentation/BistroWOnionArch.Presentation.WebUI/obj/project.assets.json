@@ -773,7 +773,8 @@
         "dependencies": {
           "AutoMapper": "12.0.1",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
-          "BistroWOnionArch.Core.Domain": "1.0.0"
+          "BistroWOnionArch.Infrastructure.Persistence": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.22"
         },
         "compile": {
           "bin/placeholder/BistroWOnionArch.Core.Application.dll": {}
@@ -796,7 +797,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "BistroWOnionArch.Core.Application": "1.0.0",
+          "BistroWOnionArch.Core.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.22",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.22"
         },
@@ -2020,7 +2021,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "BistroWOnionArch.Infrastructure.Persistence >= 1.0.0"
+      "BistroWOnionArch.Core.Application >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2056,8 +2057,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\GitHub\\BistroWOnionArch\\src\\Infrastructure\\BistroWOnionArch.Infrastructure.Persistence\\BistroWOnionArch.Infrastructure.Persistence.csproj": {
-              "projectPath": "C:\\GitHub\\BistroWOnionArch\\src\\Infrastructure\\BistroWOnionArch.Infrastructure.Persistence\\BistroWOnionArch.Infrastructure.Persistence.csproj"
+            "C:\\GitHub\\BistroWOnionArch\\src\\Core\\BistroWOnionArch.Core.Application\\BistroWOnionArch.Core.Application.csproj": {
+              "projectPath": "C:\\GitHub\\BistroWOnionArch\\src\\Core\\BistroWOnionArch.Core.Application\\BistroWOnionArch.Core.Application.csproj"
             }
           }
         }

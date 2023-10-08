@@ -1,0 +1,17 @@
+C:\GitHub\BistroWOnionArch\src\Infrastructure\BistroWOnionArch.Infrastructure.Persistence\obj\Debug\net6.0\BistroWOnionArch.Infrastructure.Persistence.csproj.AssemblyReference.cache
+C:\GitHub\BistroWOnionArch\src\Infrastructure\BistroWOnionArch.Infrastructure.Persistence\obj\Debug\net6.0\BistroWOnionArch.Infrastructure.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\BistroWOnionArch\src\Infrastructure\BistroWOnionArch.Infrastructure.Persistence\obj\Debug\net6.0\BistroWOnionArch.Infrastructure.Persistence.AssemblyInfoInputs.cache
+C:\GitHub\BistroWOnionArch\src\Infrastructure\BistroWOnionArch.Infrastructure.Persistence\obj\Debug\net6.0\BistroWOnionArch.Infrastructure.Persistence.AssemblyInfo.cs
+C:\GitHub\BistroWOnionArch\src\Infrastructure\BistroWOnionArch.Infrastructure.Persistence\obj\Debug\net6.0\BistroWOnionArch.Infrastructure.Persistence.csproj.CoreCompileInputs.cache
+C:\GitHub\BistroWOnionArch\src\Infrastructure\BistroWOnionArch.Infrastructure.Persistence\bin\Debug\net6.0\BistroWOnionArch.Infrastructure.Persistence.deps.json
+C:\GitHub\BistroWOnionArch\src\Infrastructure\BistroWOnionArch.Infrastructure.Persistence\bin\Debug\net6.0\BistroWOnionArch.Infrastructure.Persistence.runtimeconfig.json
+C:\GitHub\BistroWOnionArch\src\Infrastructure\BistroWOnionArch.Infrastructure.Persistence\bin\Debug\net6.0\BistroWOnionArch.Infrastructure.Persistence.dll
+C:\GitHub\BistroWOnionArch\src\Infrastructure\BistroWOnionArch.Infrastructure.Persistence\bin\Debug\net6.0\BistroWOnionArch.Infrastructure.Persistence.pdb
+C:\GitHub\BistroWOnionArch\src\Infrastructure\BistroWOnionArch.Infrastructure.Persistence\bin\Debug\net6.0\BistroWOnionArch.Core.Domain.dll
+C:\GitHub\BistroWOnionArch\src\Infrastructure\BistroWOnionArch.Infrastructure.Persistence\bin\Debug\net6.0\BistroWOnionArch.Core.Domain.pdb
+C:\GitHub\BistroWOnionArch\src\Infrastructure\BistroWOnionArch.Infrastructure.Persistence\obj\Debug\net6.0\BistroWOnionArch.Infrastructure.Persistence.csproj.CopyComplete
+C:\GitHub\BistroWOnionArch\src\Infrastructure\BistroWOnionArch.Infrastructure.Persistence\obj\Debug\net6.0\BistroWOnionArch.Infrastructure.Persistence.dll
+C:\GitHub\BistroWOnionArch\src\Infrastructure\BistroWOnionArch.Infrastructure.Persistence\obj\Debug\net6.0\refint\BistroWOnionArch.Infrastructure.Persistence.dll
+C:\GitHub\BistroWOnionArch\src\Infrastructure\BistroWOnionArch.Infrastructure.Persistence\obj\Debug\net6.0\BistroWOnionArch.Infrastructure.Persistence.pdb
+C:\GitHub\BistroWOnionArch\src\Infrastructure\BistroWOnionArch.Infrastructure.Persistence\obj\Debug\net6.0\BistroWOnionArch.Infrastructure.Persistence.genruntimeconfig.cache
+C:\GitHub\BistroWOnionArch\src\Infrastructure\BistroWOnionArch.Infrastructure.Persistence\obj\Debug\net6.0\ref\BistroWOnionArch.Infrastructure.Persistence.dll

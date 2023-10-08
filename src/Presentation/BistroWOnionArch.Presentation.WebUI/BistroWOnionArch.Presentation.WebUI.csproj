@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Infrastructure\BistroWOnionArch.Infrastructure.Persistence\BistroWOnionArch.Infrastructure.Persistence.csproj" />
+    <ProjectReference Include="..\..\Core\BistroWOnionArch.Core.Application\BistroWOnionArch.Core.Application.csproj" />
   </ItemGroup>
 
 </Project>

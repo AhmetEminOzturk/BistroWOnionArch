@@ -31,7 +31,7 @@ namespace BistroWOnionArch.Infrastructure.Persistence.Repositories.StatisticRepo
             await _dbContext.SaveChangesAsync();
         }
 
-        public async Task<IList<Statistic?>> GetAllAsync()
+        public async Task<List<Statistic?>> GetAllAsync()
         {
             return await _dbContext.Statistics.ToListAsync();
         }

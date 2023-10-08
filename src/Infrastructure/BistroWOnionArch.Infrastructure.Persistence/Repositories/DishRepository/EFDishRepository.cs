@@ -31,7 +31,7 @@ namespace BistroWOnionArch.Infrastructure.Persistence.Repositories.DishRepositor
             await _dbContext.SaveChangesAsync();
         }
 
-        public async Task<IList<Dish?>> GetAllAsync()
+        public async Task<List<Dish?>> GetAllAsync()
         {
             return await _dbContext.Dishes.ToListAsync();
         }
