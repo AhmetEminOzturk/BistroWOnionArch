@@ -7,17 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Dtos\About\Requests\" />
-    <Folder Include="Dtos\Category\Requests\" />
-    <Folder Include="Dtos\Dish\Requests\" />
-    <Folder Include="Dtos\OurDish\Requests\" />
-    <Folder Include="Dtos\OurService\Requests\" />
-    <Folder Include="Dtos\OurSpecial\Requests\" />
-    <Folder Include="Dtos\Statistic\Requests\" />
-    <Folder Include="Dtos\WelcomeBanner\Requests\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="AutoMapper" Version="12.0.1" />
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.22" />

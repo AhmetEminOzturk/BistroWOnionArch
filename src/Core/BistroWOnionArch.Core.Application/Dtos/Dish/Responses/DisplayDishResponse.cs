@@ -9,7 +9,6 @@ namespace BistroWOnionArch.Core.Application.Dtos.Dish.Responses
 {
     public class DisplayDishResponse
     {
-        
 
         public int DishId { get; set; }
         public string Name { get; set; }
@@ -17,8 +16,5 @@ namespace BistroWOnionArch.Core.Application.Dtos.Dish.Responses
         public decimal Price { get; set; }
         public int CategoryId { get; set; }
         
-
-
-
     }
 }

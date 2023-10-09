@@ -1,5 +1,5 @@
 ﻿using BistroWOnionArch.Core.Application.Dtos.Category.Responses;
-using BistroWOnionArch.Core.Application.Dtos.Dish.Responses;
+using BistroWOnionArch.Core.Application.Dtos.Category.Requests;
 using BistroWOnionArch.Core.Domain.Entities;
 using System;
 using System.Collections.Generic;
@@ -12,5 +12,9 @@ namespace BistroWOnionArch.Core.Application.Services.CategoryServices
     public interface ICategoryService 
     {
         Task<List<DisplayCategoryResponse>> TGetAll();
+        Task<DisplayCategoryResponse> TGet(int id);
+        Task TInsert(CreateCategoryRequest createCategoryRequest);
+        Task TUpdate(UpdateCategoryRequest updateCategoryRequest);
+        Task TDelete(int id);
     }
 }

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ySnHIiqPOuiXh5hyprSmKARxgIUvG+0keZ+5yI1MrPo=",
+  "Source": "BistroWOnionArch.Presentation.WebAPI",
+  "BasePath": "_content/BistroWOnionArch.Presentation.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

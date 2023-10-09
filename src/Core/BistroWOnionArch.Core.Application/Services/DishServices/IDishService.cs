@@ -1,5 +1,5 @@
 ﻿using BistroWOnionArch.Core.Application.Dtos.Dish.Responses;
-using BistroWOnionArch.Core.Application.Dtos.OurDish.Responses;
+using BistroWOnionArch.Core.Application.Dtos.Dish.Requests;
 using BistroWOnionArch.Core.Domain.Entities;
 using System;
 using System.Collections.Generic;
@@ -13,5 +13,8 @@ namespace BistroWOnionArch.Core.Application.Services.DishServices
     {       
         Task<List<DisplayDishResponse>> GetDishesByCategory(int categoryId);
         Task<List<DisplayDishResponse>> TGetAll();
+        Task TInsert(CreateDishRequest createDishRequest);
+        Task TUpdate(UpdateDishRequest updateDishRequest);
+        Task TDelete(int id);
     }
 }
