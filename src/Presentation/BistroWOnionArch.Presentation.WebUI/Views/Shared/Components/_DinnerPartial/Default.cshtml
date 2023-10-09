@@ -1,0 +1,26 @@
+﻿@model List<DisplayDishResponse>
+<div class="another-sec">
+    <h3 class="title-big mb-2">Akşam Yemeği</h3>
+<div class="row menu-body">
+    @foreach (var item in Model)
+    {
+        <div class="col-lg-6 menu-section">
+            <div class="menu-item">
+                <div class="row no-gutters">
+                    <div class="col-9 menu-item-name">
+                        <h6>@item.Name</h6>
+                    </div>
+                    <div class="col-3 menu-item-price text-right">
+                        <h6>₺@item.Price</h6>
+                    </div>
+                </div>
+                <div class="menu-item-description">
+                    <p>@item.Description</p>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+</div>
+
+

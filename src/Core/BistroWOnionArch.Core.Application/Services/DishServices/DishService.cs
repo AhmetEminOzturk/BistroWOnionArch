@@ -13,6 +13,13 @@ namespace BistroWOnionArch.Core.Application.Services.DishServices
     {
         private readonly IDishRepository _dishRepository;
         private readonly IMapper _mapper;
+
+        public DishService(IDishRepository dishRepository, IMapper mapper)
+        {
+            _dishRepository = dishRepository;
+            _mapper = mapper;
+        }
+
         public async Task<List<DisplayDishResponse>> GetDishesByCategory(int categoryId)
         {
             var values = await _dishRepository.GetDishesByCategoryAsync(categoryId);
