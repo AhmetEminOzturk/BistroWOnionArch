@@ -1,8 +1,11 @@
 using BistroWOnionArch.Core.Application.Mappings;
 using BistroWOnionArch.Presentation.WebUI.Extensions;
+using Microsoft.AspNetCore.Hosting;
 using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
+
+
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

@@ -41,15 +41,16 @@ namespace BistroWOnionArch.Infrastructure.Persistence.Repositories.DishRepositor
             return await _dbContext.Dishes.FirstAsync(p => p.DishId == id);
         }
 
-        public Task<List<Dish>> GetDishesByCategoryAsync(int categoryId)
+        public async Task<List<Dish>> GetDishesByCategoryAsync(int categoryId)
         {
-            return _dbContext.Dishes.Where(c => c.Category.CategoryId == categoryId).ToListAsync();
+           
+            return await _dbContext.Dishes.Where(c => c.Category.CategoryId == categoryId).ToListAsync();
         }
 
         public async Task UpdateAsync(Dish entity)
         {
             _dbContext.Dishes.Update(entity);
-            _dbContext.SaveChangesAsync();
+            await _dbContext.SaveChangesAsync();
         }
     }
 }

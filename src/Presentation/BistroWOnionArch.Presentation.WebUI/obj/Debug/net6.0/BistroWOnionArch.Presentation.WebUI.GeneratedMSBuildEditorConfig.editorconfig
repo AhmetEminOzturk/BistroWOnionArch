@@ -20,8 +20,16 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVBhZ2VcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/GitHub/BistroWOnionArch/src/Presentation/BistroWOnionArch.Presentation.WebUI/Views/Menu/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/GitHub/BistroWOnionArch/src/Presentation/BistroWOnionArch.Presentation.WebUI/Views/Shared/Components/_AboutPartial/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0Fib3V0UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/GitHub/BistroWOnionArch/src/Presentation/BistroWOnionArch.Presentation.WebUI/Views/Shared/Components/_BreakFastPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0JyZWFrRmFzdFBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/GitHub/BistroWOnionArch/src/Presentation/BistroWOnionArch.Presentation.WebUI/Views/Shared/Components/_OurDishPartial/Default.cshtml]

@@ -9,7 +9,7 @@ namespace BistroWOnionArch.Core.Domain.Entities
     public class Category
     {
         public int CategoryId { get; set; }
-        public int Name { get; set; }
+        public string Name { get; set; }
         public List<Dish> Dishes { get; set; }
     }
 }
