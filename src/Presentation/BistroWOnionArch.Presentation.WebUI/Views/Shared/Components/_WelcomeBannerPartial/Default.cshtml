@@ -1,0 +1,48 @@
+﻿@model List<DisplayWelcomeBannerResponse>
+@foreach (var item in Model)
+{
+      <section class="w3l-banner">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 banner-left d-flex align-items-center pl-lg-5">
+                <div>
+                    <h3 class="text-white mb-4">
+                        @item.Title1 <br>
+                         <span class="type-js"><span class="text-js">@item.Title2</span></span>
+                    </h3>
+                    <p class="banner-text text-white">
+                      <span>@item.Title3</span>
+                    </p>
+                    <a class="btn btn-style-white btn-style-border mt-5" href="about.html">Daha Fazla</a>
+                </div>
+            </div>
+            <div class="col-md-6 banner-right">
+                <div class="small-images">
+                    <div class="ban-grid position-relative">
+                            <img src="~/Template/assets/images/ban4.jpg" class="img-responsive" alt="" />
+                        <div class="img-ban-sec">
+                            <h5>@item.ImageTitle1</h5>
+                            <a href="/Menu/Index" class="btn p-0">
+                                Daha Fazla <i class="fa fa-angle-right ml-1"
+                                        aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ban-grid position-relative mt-4">
+                        <img src="~/Template/assets/images/ban2.jpg" class="img-responsive" alt="" />
+                        <div class="img-ban-sec">
+                            <h5>@item.ImageTitle2</h5>
+                                <a href="/Menu/Index" class="btn p-0">
+                                    Daha Fazla <i class="fa fa-angle-right ml-1"
+                                        aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> 
+}
+ 
+

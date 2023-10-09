@@ -1,0 +1,43 @@
+﻿@model List<DisplayOurServiceResponse>
+@foreach (var item in Model)
+{
+    <section class="w3l-homeblock7 py-5">
+    <div class="container py-lg-5 py-md-3">
+        <div class="row align-items-center">
+            <div class="col-lg-4">
+                <div class="pr-5">
+                    <h3 class="title-big">@item.Title1</h3>
+                    <p class="mt-4">
+                       @item.Description1
+                    </p>
+                </div>
+                <div class="pr-5 mt-lg-5 mt-4 sec-bor">
+                    <h3 class="title-big pt-lg-5 pt-4">@item.Title2</h3>
+                    <p class="mt-4">
+                            @item.Description2
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-8 image-styling-sec mt-lg-0 mt-5">
+                <img src="@item.ImageUrl" alt="" class="img-fluid">
+            </div>
+            <div class="col-lg-4 col-md-6 mt-lg-0 mt-5 text-lg-right">
+                <div class="pl-lg-5">
+                        <h3 class="title-big">@item.Title3</h3>
+                    <p class="mt-4">
+                            @item.Description3
+                    </p>
+                </div>
+                <div class="pl-lg-5 mt-lg-5 mt-4 sec-bor">
+                        <h3 class="title-big pt-lg-5 pt-4">@item.Title4</h3>
+                    <p class="mt-4">
+                            @item.Description4
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+}
+
+

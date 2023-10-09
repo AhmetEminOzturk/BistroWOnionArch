@@ -1,11 +1,13 @@
+using BistroWOnionArch.Core.Application.Mappings;
 using BistroWOnionArch.Presentation.WebUI.Extensions;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+builder.Services.AddAutoMapper(typeof(MapProfile));
 
 
 var connectionString = builder.Configuration.GetConnectionString("db");

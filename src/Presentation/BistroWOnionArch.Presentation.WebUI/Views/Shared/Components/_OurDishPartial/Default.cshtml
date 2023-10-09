@@ -1,0 +1,53 @@
+﻿@model List<DisplayOurDishResponse>
+@foreach (var item in Model)
+{
+    <section class="w3l-recipes py-5">
+        <div class="container py-md-5 py-4">
+            <div class="row">
+                <div class="col-lg-6 recipe-left mb-md-0 mb-5">
+                    <div class="section-heading mb-sm-5 mb-4">
+                        <h3 class="title-style mb-2 text-white">@item.Title</h3>
+                        <p class="lead text-white">
+                            @item.Description
+                        </p>
+                    </div>
+                    <div class="menu-sec mt-5 pt-md-4">
+                        <div class="row border-dot no-gutters">
+                            <div class="col-8 menu-item-name-home">
+                                <h6>@item.Dish1</h6>
+                            </div>
+                            <div class="col-4 menu-item-price-home text-right">
+                                <h6>₺@item.DishPrice1</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-sec mt-sm-5 mt-4">
+                        <div class="row border-dot no-gutters">
+                            <div class="col-8 menu-item-name-home">
+                                <h6>@item.Dish2</h6>
+                            </div>
+                            <div class="col-4 menu-item-price-home text-right">
+                                <h6>₺@item.DishPrice2</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-sec mt-sm-5 mt-4">
+                        <div class="row border-dot no-gutters">
+                            <div class="col-8 menu-item-name-home">
+                                <h6>@item.Dish3 </h6>
+                            </div>
+                            <div class="col-4 menu-item-price-home text-right">
+                                <h6>₺@item.DishPrice3</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="btn btn-style-white btn-style-border mt-5" href="/Menu/Index">Daha Fazla</a>
+                </div>
+                <div class="col-lg-6 recipe-right pl-5">
+                    <img src="@item.ImageUrl1" alt="" class="img-fluid img-responsive" />
+                </div>
+            </div>
+        </div>
+    </section>
+}
+

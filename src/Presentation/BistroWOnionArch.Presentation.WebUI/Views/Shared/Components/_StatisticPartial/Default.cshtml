@@ -1,0 +1,36 @@
+﻿@model List<DisplayStatisticResponse>
+@foreach (var item in Model)
+{
+    <section class="w3-bottom-stats py-5">
+    <div class="container py-md-5 py-4">
+        <div class="row">
+            <div class="col-md-7 pr-lg-5">
+                <h5 class="text-new mb-4">
+                    Merhaba. <br>@item.Title1 <br>@item.Title2
+                </h5>
+                <p class="mb-3">
+                    @item.Description1
+                </p>
+                <p>
+                    @item.Description2
+                </p>
+                <a href="/Menu/Index" class="btn btn-style-white btn-style-primary mt-lg-5 mt-4">Daha Fazla</a>
+            </div>
+            <div class="col-md-5 mt-md-0 mt-5">
+                <div class="counter text-center">
+                    <div class="timer count-title count-number" data-to="@item.StatisticCount1" data-speed="1500"></div>
+                    <p class="count-text mt-2">@item.StatisticTitle1</p>
+                </div>
+                <div class="counter text-center mt-5">
+                    <div class="timer count-title count-number" data-to="@item.StatisticCount2" data-speed="1500"></div>
+                    <p class="count-text mt-2">@item.StatisticTitle2</p>
+                </div>
+                <div class="counter text-center mt-5">
+                    <div class="timer count-title count-number" data-to="@item.StatisticCount3" data-speed="1500"></div>
+                    <p class="count-text mt-2">@item.StatisticTitle3</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+}

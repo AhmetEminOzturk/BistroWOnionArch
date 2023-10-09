@@ -11,7 +11,10 @@ namespace BistroWOnionArch.Infrastructure.Persistence.Context
 {
     public class BistroWOnionArchDbContext :DbContext
     {
-        
+        public BistroWOnionArchDbContext(DbContextOptions<BistroWOnionArchDbContext> options) : base(options)
+        {
+
+        }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
